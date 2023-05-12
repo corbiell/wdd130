@@ -5,25 +5,25 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=PT+Serif&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #0b91da   ;
-  --secondary-color: #281867 ;
-  --accent1-color: #b4442c;
-  --accent2-color: white;
+  --primary-color: rgb(11, 145, 218)   ;
+  --secondary-color: rgb(40, 24, 103) ;
+  --accent1-color: rgb(180,68, 44);
+  --accent2-color: rgb(255, 255, 255);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Noto Serif";
   --paragraph-font: "PT Serif", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #0b91da;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #0b91da; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #0b91da  ;
-  --nav-link-color: white;
-  --nav-background-color: #281867;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #0b91da;
+  --headline-color-on-white: rgb(11,145, 218);  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(255, 255, 255); /* headlines on a colored background */ 
+  --paragraph-color-on-white: rgb(11, 145, 218); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: rgb(255, 255, 255); /* paragraph text on a colored background */ 
+  --paragraph-background-color: rgb(11, 145, 218);
+  --nav-link-color: rgb(255,255,255);
+  --nav-background-color: rgb(40, 24, 103);
+  --nav-hover-link-color: rgb(255, 255, 255);
+  --nav-hover-background-color: rgb(11, 145, 218);
 }
 
 

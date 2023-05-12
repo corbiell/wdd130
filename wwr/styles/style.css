@@ -12,7 +12,7 @@
 
 nav a {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -33,50 +33,52 @@ main section {
 }
 
 body {
-    background-color: rgb(255, 255, 255); 
+    background-color: #ffffff; 
 }
 header {
-    background-color: rgba(11,145,218, .7);
-    color: rgb(255, 255, 255);
+    background-color: #0b91dab3;
+    color: #ffffff;
 }
 nav a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(180, 68, 44);
+    background-color: #ffffff;
+    color: #b4442c;
 }
 
 .home-title {
-    color: rgb(180, 68, 44);
+    color: #b4442c;
 }
 
 h4 {
-    color: rgb(11, 145, 218);
+    color: #0b91da;
 
 }
 
 .book {
-    background-color: rgb(180, 68, 44);
-    color: rgb(255, 255, 255)
+    background-color: #b4442c;
+    color: #ffffff;
+    
 }
 
 .join {
     background-color: rgb(11, 145, 218);
     color:rgb(255,255,255)
+    
 }
 .book:hover, .join:hover {
-    background-color: rgb(11, 145, 218);
-    color: rgb(255, 255, 255);
+    background-color: #0b91da;
+    color: #ffffff;
 }
 
 .join:hover {
-    background-color: rgb(40, 24, 103);
-    color: rgb(255, 255, 255);
+    background-color: #281867;
+    color: #ffffff;
 }
 #background, .msg, footer {
-    background-color: rgb(180, 68, 44);
+    background-color: #b4442c;
 
 }
 .msg h2, .msg p {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 .icon {
@@ -92,16 +94,17 @@ h4 {
 }
 
 footer {
-    color: rgb(40, 24, 103, 20);
+    color: #281867;
     background-color: wheat;
 }
 
 footer a {
-    color: rgb(40, 24, 103);
+    color: #281867;
+    text-decoration: none;
 }
 
 footer a:hover {
-    color:rgb(180, 68, 44);  
+    color: #b4442c;  
 }
 footer p {
     font-size: 1.2em;
@@ -109,5 +112,8 @@ footer p {
 
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+}
+.book, .join{
+    text-decoration: none;
 }
